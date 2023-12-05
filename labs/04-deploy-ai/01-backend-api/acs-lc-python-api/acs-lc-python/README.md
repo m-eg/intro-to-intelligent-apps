@@ -13,7 +13,7 @@ pip install -r requirements.txt
 2. Start the application using the following command:
 
 ```bash
-uvicorn main:app --reload
+uvicorn main:app --reload --host=0.0.0.0 --port=5291
 ```
 
 3. Open a browser and navigate to http://localhost:8000/docs
